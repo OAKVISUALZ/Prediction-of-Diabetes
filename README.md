@@ -1,7 +1,7 @@
 # Diabetes Prediction with Machine Learning
 
 ## Objective
-The goal of this project is to predict whether an individual has diabetes based on various diagnostic measures, including age, glucose levels, blood pressure, and other medical attributes. The project uses a supervised machine learning approach to build a predictive model.
+This project aims to predict whether an individual has diabetes based on various diagnostic measures, including age, glucose levels, blood pressure, and other medical attributes. The project uses a supervised machine learning approach to build a predictive model.
 
 ### Skills Developed
 - Techniques for data preprocessing and cleaning.
@@ -25,12 +25,10 @@ The goal of this project is to predict whether an individual has diabetes based 
 # Import Libraries
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
+from sklearn import svm
+from sklearn.metrics import accuracy_score
 
 # Load Dataset
 data_url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv"
