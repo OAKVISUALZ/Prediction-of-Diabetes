@@ -8,7 +8,7 @@ This project aims to predict whether an individual has diabetes based on various
 - Feature engineering and selection.
 - Model training and hyperparameter tuning.
 - Evaluation of classification models.
-- Proficiency in visualization using Matplotlib and Seaborn.
+
 
 ### Tools Utilized
 - Python (NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn)
