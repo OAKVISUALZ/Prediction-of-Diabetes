@@ -20,6 +20,9 @@ This project aims to predict whether an individual has diabetes based on various
 2. Install the necessary Python libraries.
 3. Run the Jupyter Notebook to explore the dataset and train models.
 4. Review the model's results and predictions.
+   
+### Deployment: 
+The lambda_function.py is designed to run on AWS Lambda (Python 3.9 runtime). It fetches the pre-trained .pkl model from an S3 bucket and serves predictions via API Gateway.
 
 ```python
 # Import Libraries
